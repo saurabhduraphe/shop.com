@@ -1,0 +1,64 @@
+<html>
+<head>
+        <title>Login Page</title>
+<style>
+ .header .login-form
+{
+    border: 0px solid;
+    position: absolute;
+    width: 35rem;
+    top: 110%;
+    right: -110%;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    text-align: center;
+}
+.header .login-form.active
+{
+    right: 2rem;
+    transition: .4s linear;
+}
+.header .login-form h3
+{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.header .login-form .box
+{
+    width: 100%;
+    border: 0px solid;
+    margin: .7rem;
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+.header .login-form p
+{
+    font-size: 1.4rem;
+    padding: .5rem;
+    color: var(--light-color);
+}
+.header .login-form p a
+{
+    color: var(--green);
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+    <form action="#" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>Forgot Your Password <a href="#">Click Here</a></p>
+    <p>Don't Have An Account <a href="#">Create Now</a></p>
+    <input type="submit" value="login now" class="btn">
+</form>
+</body>
+</html>

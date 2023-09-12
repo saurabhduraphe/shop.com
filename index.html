@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="http://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="header">
+    <a href="#" class="logo"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Electronics Store </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+    </div>
+<form class="search-form">
+    <input type="search" id="search-box" placeholder="Search Here...">
+    <label for="search-box" class="fa fa-search"></label>
+</form>
+
+<div class="shopping-cart">
+    <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="smartwatch.png">
+        <div class="content">
+            <h3>Smart Watch</h3>
+            <span class="price">2000Rs/-</span>
+            <span class="Quantity">Qty :1</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="printer.png">
+        <div class="content">
+            <h3>HP printer</h3>
+            <span class="price">22000Rs/-</span>
+            <span class="Quantity">Qty:1</span>
+        </div>
+        </div>
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="alexa.png">
+            <div class="content">
+                <h3>Alexa</h3>
+                <span class="price">4999Rs/-</span>
+                <span class="Quantity">Qty :1</span>
+            </div>
+        </div>
+    <div class="total">Total : 28999Rs</div>
+    <a href="#" class="btn">Checkout</a>
+
+</div>
+<form action="#" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>Forgot Your Password <a href="#">Click Here</a></p>
+    <p>Don't Have An Account <a href="#">Create Now</a></p>
+    <input type="submit" value="login now" class="btn" onclick="successful()">
+    <script type="text/javascript">
+        function successful()
+        {
+            alert("Login Successful !")
+        }
+    </script>
+</form>
+
+    </header>
+     <section class="home" id="home">
+        <div class="content">
+            <h3>Latest And <span>Guranteed</span> Products For you</h3>
+            <p>This Website is Designed by Saurabh Duraphe
+               so that Everyone can Shop Easily on
+               Their Fingertips.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+     </section>
+
+     
+    <section class="features" id="features">
+        <h1 class="heading"> Our <span>Features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="feature1.png">
+                <h3>Latest and Branded products</h3>
+                <p></p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="feature2.png">
+                <h3>Free Delivery</h3>
+                <p>dsvjhvvhschwjvh</p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="feature3.png">
+                <h3>Easy Payment</h3>
+                <p></p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+     </section>
+    <section class="products" id="products">
+        <h1 class="heading"> Our <span>Products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image1.png">
+                    <h1>Mobile</h1>
+                    <div class="price">Rs.127999</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image3.png">
+                    <h1>Washing machine</h1>
+                    <div class="price">Rs.40000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images4.png">
+                    <h1>TV(Sony)</h1>
+                    <div class="price">Rs.80000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="airpods.png">
+                    <h1>Air pods</h1>
+                    <div class="price">Rs.2000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="speakers.png">
+                    <h1>Speakers</h1>
+                    <div class="price">Rs.1200</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="macbook.png">
+                    <h1>Macbook</h1>
+                    <div class="price">Rs.200000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image6.png">
+                    <h1>Mixer</h1>
+                    <div class="price">Rs.4000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image7.png">
+                    <h1>Electric Iron</h1>
+                    <div class="price">Rs.2000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="smartwatch.png">
+                    <h1>Smart Watch</h1>
+                    <div class="price">Rs.2000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="trimmer.png">
+                    <h1>Trimmer</h1>
+                    <div class="price">Rs.2000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="printer.png">
+                    <h1>Printer</h1>
+                    <div class="price">Rs.22000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="camera.png">
+                    <h1>Camera</h1>
+                    <div class="price">Rs.79999</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="alexa.png">
+                    <h1>Alexa Devices</h1>
+                    <div class="price">Rs.4999</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="router.png">
+                    <h1>Routers</h1>
+                    <div class="price">Rs.2499</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="headphone.png">
+                    <h1>Headphones</h1>
+                    <div class="price">Rs.3199</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="categories" id="categories">
+        <h1 class="heading">Products <span>Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="categories1.png">
+                <h3>TV</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="categories2.png">
+                <h3>Air Conditioner</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="categories3.png">
+                <h3>Washing Machine</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="categories5.png">
+                <h3>Toaster</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="categories6.png">
+                <h3>Table Fan</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+            <div class="box">
+                <img src="categories7.png">
+                <h3>Ceiling Fan</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="review3.png">
+                    <p>IT'S A NICE EXPERIENCE OF SERFFING PRODUCTS ON THIS BRILLIANT APP.I/WE REALLY ENJOYED IT. </p>
+                    <h3>Riddhi Chatterjee</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="review2.png">
+                    <p>IT'S A NICE EXPERIENCE OF SERFFING PRODUCTS ON THIS BRILLIANT APP.I/WE REALLY ENJOYED IT. </p>
+                    <h3>Yash Khirsagar</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="review3.png">
+                    <p>IT'S A NICE EXPERIENCE OF SERFFING PRODUCTS ON THIS BRILLIANT APP.I/WE REALLY ENJOYED IT. </p>
+                    <h3>Alexa</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="review2.png">
+                    <p>IT'S A NICE EXPERIENCE OF SERFFING PRODUCTS ON THIS BRILLIANT APP.I/WE REALLY ENJOYED IT. </p>
+                    <h3>Akash Chavan</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our<span>Blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+            <img src="blog2.png">
+            <div class="content">
+            <div class="icons">
+            <a href="#"><i class="fa fa-user"></i> By user</a>
+            <a href="#"><i class="fa fa-calender"></i> 26th Aug 2023</a>
+            </div>    
+            <h3>From The Manufacturer</h3>
+            <p></p>
+            <a href="https://www.bluehost.com/blog/how-to-write-and-publish-your-first-blog-post/?utm_campaign=pmax_PPC&utm_source=googleads&utm_medium=genericsearch&utm_affiliate=bluehost_PPC&irpid=101&clickid=P61C101S570N0B5578A2D4499E0000V292&pb=signup_searchgenericpromo&siteid=101&channelid=P61C101S570N0B5578A2D4499E0000V292&gclid=CjwKCAjwo9unBhBTEiwAipC11y5VtIUdS_ieaodyxx4rAaPYab0D9rPMCo3VCvv5m_hBN2Dq9wOO4hoC7WwQAvD_BwE&gclsrc=aw.ds" class="btn">Read More</a>
+            </div>
+            </div>
+            <div class="box">
+                <img src="blog3.png">
+                <div class="content">
+                <div class="icons">
+                <a href="#"><i class="fa fa-user"></i> By user</a>
+                <a href="#"><i class="fa fa-calender"></i> 26th Aug 2023</a>
+                </div>    
+                <h3>From The Manufacturer</h3>
+                <p></p>
+                <a href="https://www.lifehack.org/articles/communication/top-10-most-inspirational-bloggers-the-world.html" class="btn">Read More</a>
+                </div>
+                </div>
+                <div class="box">
+                    <img src="blog4.png">
+                    <div class="content">
+                    <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i> By user</a>
+                    <a href="#"><i class="fa fa-calender"></i> 26th Aug 2023</a>
+                    </div>    
+                    <h3>From The Manufacturer</h3>
+                    <p></p>
+                    <a href="https://www.edudwar.com/best-indian-blogs/" class="btn">Read More</a>
+                    </div>
+                    </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> Electronics Store <i class="fa fa-shopping-cart"></i></h3>
+                <p>Feel Free To Follow Us On Social Media Handlers All The Links Are Given Below.</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3> Contact Info </h3>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fa fa-envelope"></i> info@gmail.com </a>
+                <a href="#" class="links"> <i class="fa fa-map-marker"></i> Pune, India </a>
+            </div>
+            <div class="box">
+                <h3> Quick Links </h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Home </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Features </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Products </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Categories </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Review </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Blogs </a>
+            </div>
+            <div class="box">
+                <h3> News Letter </h3>
+                <p>Subscribe For Latest Updates </p>
+                <input type="email" placeholder="Your Email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="debit1.png" class="debit1-img">
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>   
+    <script src="script.js"></script>
+</body>
+</html>
